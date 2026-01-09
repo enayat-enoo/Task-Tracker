@@ -23,7 +23,7 @@ connectDb(MONGO_URL)
   });
 
 //Routes
-app.use("api/tasks/", router);
+app.use("/api", router);
 
 //Global Error Handler
 app.use((err, req, res, next) => {
