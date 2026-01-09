@@ -77,7 +77,6 @@ function TaskForm({ onTaskCreated }) {
     <form onSubmit={handleSubmit} className="task-form">
       <h2>Create Task</h2>
 
-      {/* Title */}
       <div>
         <label>Title *</label>
         <input
@@ -90,7 +89,6 @@ function TaskForm({ onTaskCreated }) {
         {errors.title && <p className="error">{errors.title}</p>}
       </div>
 
-      {/* Description */}
       <div>
         <label>Description</label>
         <textarea
@@ -101,7 +99,6 @@ function TaskForm({ onTaskCreated }) {
         />
       </div>
 
-      {/* Priority */}
       <div>
         <label>Priority</label>
         <select
@@ -115,7 +112,6 @@ function TaskForm({ onTaskCreated }) {
         </select>
       </div>
 
-      {/* Due Date */}
       <div>
         <label>Due Date *</label>
         <input
