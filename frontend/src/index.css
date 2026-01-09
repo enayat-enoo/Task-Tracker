@@ -1,0 +1,49 @@
+.task-form {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.task-form div {
+  margin-bottom: 12px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  padding: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-item.completed {
+  background-color: #f1f1f1;
+}
+
+.task-actions button {
+  margin-left: 8px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+}
+
+.status-complete {
+  color: green;
+}
+
+.status-pending {
+  color: orange;
+}
